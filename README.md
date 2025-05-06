@@ -18,5 +18,5 @@ docker run -ti -p 127.0.0.1:8000:8000 \
 -w /root/shared \
 ghcr.io/scientificcomputing/fenics-gmsh:2024-05-30
 
-### 📦 Using Docker (Recommended)
+Windows 10
 Enable Windows Subsystem for Linux (WSL) and install Ubuntu from the Microsoft Store. Then follow the Ubuntu installation instructions below.
