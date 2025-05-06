@@ -1,14 +1,4 @@
-"""
-FEniCS tutorial demo program: Convection-diffusion-reaction for a system
-describing the concentration of three species A, B, C undergoing a simple
-first-order reaction A + B --> C with first-order decay of C. The velocity
-is given by the flow field w from the demo navier_stokes_cylinder.py.
 
-  u_1' + w . nabla(u_1) - div(eps*grad(u_1)) = f_1 - K*u_1*u_2
-  u_2' + w . nabla(u_2) - div(eps*grad(u_2)) = f_2 - K*u_1*u_2
-  u_3' + w . nabla(u_3) - div(eps*grad(u_3)) = f_3 + K*u_1*u_2 - K*u_3
-
-"""
 
 from __future__ import print_function
 from fenics import *
