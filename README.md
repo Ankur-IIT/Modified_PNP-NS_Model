@@ -2,9 +2,9 @@
 
 This repository implements the **Finite Element Method (FEM)** for the **Modified Poisson–Nernst–Planck/Navier-Stokes (PNP/NS) Model** from the paper:
 
-> ["Finite Element Method for the Numerical Simulation of Modified PNP/NS Model"](https://www.arxiv.org/abs/2409.08746)
+<a href="https://www.arxiv.org/abs/2409.08746" target="_blank">"Finite Element Method for the Numerical Simulation of Modified PNP/NS Model"</a>
 
-The model solves for parameters like **temperature** and **bulk modulus** to study system stability.
+Twe simulate the present model using the Finite element scheme discussed in the previous section. We simulate the model for a wide range of parameter values, such as temperature and bulk modulus,  as they affect the numerical stability and qualitative behavior of the model.
 
 ---
 
