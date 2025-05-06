@@ -17,6 +17,16 @@ docker run -ti -p 127.0.0.1:8000:8000 \
 -v $(pwd):/root/shared \
 -w /root/shared \
 ghcr.io/scientificcomputing/fenics-gmsh:2024-05-30
+```
 
-Windows 10
+### 🪟 Windows 10
 Enable Windows Subsystem for Linux (WSL) and install Ubuntu from the Microsoft Store. Then follow the Ubuntu installation instructions below.
+
+### 🐧 Ubuntu
+To install FEniCS on Ubuntu, run:
+```bash
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:fenics-packages/fenics
+sudo apt-get update
+sudo apt-get install fenics
+```
