@@ -115,8 +115,8 @@ u3_bc1_values = [-0.5, -1.0, -2.0]
 u3_bc3_values = [0.5, 1.0, 2.0]
 
 # Define u3_bc1 and u3_bc3 as Constants
-u3_bc1 = Constant(0.0)  
-u3_bc3 = Constant(0.0) 
+u3_bc1 = Constant(0.0)  # Initial value, you can modify this if needed
+u3_bc3 = Constant(0.0)  # Initial value, you can modify this if needed
 
 # Lists to store solutions
 solutions1 = []
@@ -263,6 +263,7 @@ plt.xlabel('x-axis', fontsize=14)
 plt.ylabel('$n$', fontsize=16)
 plt.ylim(0.9, 3)  # Set y-axis limits
 plt.legend([fr'$\varphi$={u3_bc1_val} on $\Gamma_D^L$, $\varphi$={u3_bc3_val} on $\Gamma_D^R$' for u3_bc1_val, u3_bc3_val in zip(u3_bc1_values, u3_bc3_values)], loc='best', fontsize=14)
-plt.xticks(fontsize=12) 
-plt.yticks(fontsize=12) 
+# Adjust the scale of the x-axis and y-axis
+plt.xticks(fontsize=12)  # You can adjust the font size as needed
+plt.yticks(fontsize=12)  # You can adjust the font size as needed
 plt.show()
