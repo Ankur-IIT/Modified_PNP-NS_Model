@@ -58,7 +58,7 @@ cd Modified_PNP-NS_Model
 ```
 3. Run the Python script to solve the Modified PNP/NS Model, for example:
 ```bash
-python Nonlinear_Model_4Diri.py
+python example_2_1D.py
 ```
 
 ## 📖 Citation
